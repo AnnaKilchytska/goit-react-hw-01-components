@@ -1,4 +1,4 @@
-import './App.css';
+import './App.module.css';
 
 import data from '../../data/data.json';
 import user from '../../data/user.json';

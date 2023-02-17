@@ -1,7 +1,8 @@
 import propTypes from 'prop-types';
+import css from './FriendList.module.css';
 
 export const FriendList = ({ children }) => {
-  return <ul className="friend-list">{children}</ul>;
+  return <ul className={css.list}>{children}</ul>;
 };
 
 FriendList.propTypes = {
